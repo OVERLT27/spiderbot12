@@ -1,0 +1,15 @@
+img{
+    padding: 20px;
+}
+
+body {
+  background-color: #e81e63;
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
