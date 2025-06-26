@@ -1,33 +1,29 @@
-img{
+img {
   padding: 20px;
 }
 
-body{
-  background-color: rgb(220, 20, 20);
+body {
+  background-color: rgb(220, 20, 20);  
+  color: rgb(167, 35, 179);  
+  margin: 0;  
+  font-family: Arial, sans-serif;  
 }
 
-body{color: white;
-}
-
-body{color: rgb(167, 35, 179);
-}
-
-.header{
-  background-color: blue;
-  text-align: center;
+.header {
+  background-color: blue; 
+  text-align: center;  
   padding: 20px;
+  color: white;  
 }
 
-h2{
-  padding-top: 10px;
-  padding-right: 40px;
-  padding-bottom: 10px;
-  padding-left: 40px;
+h2 {
+  padding: 10px 40px;
+  margin: 0;  
+  background-color: rgb(167, 35, 179);  
+  color: white;  
 }
 
-p{
-  padding-top: 10px;
-  padding-right: 40px;
-  padding-bottom: 10px;
-  padding-left: 40px;
+p {
+  padding: 10px 40px;
+  margin: 0;  
 }
