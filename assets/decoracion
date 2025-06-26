@@ -1,29 +1,45 @@
+/* Para las imágenes */
 img {
   padding: 20px;
 }
 
+/* Estilo del body */
 body {
-  background-color: rgb(220, 20, 20);  
-  color: rgb(167, 35, 179);  
-  margin: 0;  
-  font-family: Arial, sans-serif;  
+  background-color: rgb(220, 20, 20);  /* Color rojo para el fondo */
+  color: rgb(167, 35, 179);  /* Color morado para el texto */
+  margin: 0;  /* Elimina el margen predeterminado */
+  font-family: Arial, sans-serif;  /* Fuente limpia para el texto */
 }
 
+/* Encabezado */
 .header {
-  background-color: blue; 
-  text-align: center;  
+  background-color: blue;  /* Color azul para el encabezado */
+  text-align: center;  /* Centrado del texto */
   padding: 20px;
-  color: white;  
+  color: white;  /* Color blanco para el texto del encabezado */
 }
 
+/* Estilo para los h2 (subtítulos) */
 h2 {
   padding: 10px 40px;
-  margin: 0;  
-  background-color: rgb(167, 35, 179);  
-  color: white;  
+  margin: 0;  /* Elimina márgenes extra */
+  background-color: rgb(167, 35, 179);  /* Fondo morado */
+  color: white;  /* Texto blanco */
+  text-align: center; /* Centrado del texto */
 }
 
+/* Estilo para los párrafos */
 p {
   padding: 10px 40px;
-  margin: 0;  
+  margin: 20px 0;  /* Agrega margen superior e inferior */
+  text-align: center; /* Centrado del texto */
+}
+
+/* Estilos para el contenedor de imágenes */
+.row {
+  margin-top: 20px;
+}
+
+.col-md-6 {
+  margin-bottom: 20px; /* Espaciado entre las imágenes */
 }
