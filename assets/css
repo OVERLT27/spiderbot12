@@ -1,19 +1,33 @@
 img{
-    padding: 20px;
+  padding: 20px;
 }
 
-body {
-  background-color: #e91515;
+body{
+  background-color: rgb(220, 20, 20);
 }
 
-body {
-  color: white;
+body{color: white;
 }
 
-h1 {
-  color: white;
+body{color: rgb(167, 35, 179);
 }
 
-h1 {
+.header{
+  background-color: blue;
   text-align: center;
+  padding: 20px;
+}
+
+h2{
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+p{
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 40px;
 }
