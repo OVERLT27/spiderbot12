@@ -1,6 +1,10 @@
 /* Para las imágenes */
 img {
   padding: 20px;
+  border: 5px solid rgb(167, 35, 179);  /* Agrega un borde morado alrededor de las imágenes */
+  border-radius: 10px;  /* Redondea las esquinas de las imágenes */
+  margin-bottom: 20px;  /* Agrega espacio debajo de las imágenes */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);  /* Agrega una sombra para hacer que se resalten */
 }
 
 /* Estilo del body */
@@ -22,7 +26,7 @@ body {
 /* Estilo para los h2 (subtítulos) */
 h2 {
   padding: 10px 40px;
-  margin: 0;  /* Elimina márgenes extra */
+  margin: 20px 0;  /* Agrega margen superior e inferior */
   background-color: rgb(167, 35, 179);  /* Fondo morado */
   color: white;  /* Texto blanco */
   text-align: center; /* Centrado del texto */
@@ -42,4 +46,15 @@ p {
 
 .col-md-6 {
   margin-bottom: 20px; /* Espaciado entre las imágenes */
+}
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+/* Agregar espacio entre las imágenes */
+.picture-container {
+  display: flex;
+  justify-content: space-around;  /* Espacio entre las imágenes */
+  flex-wrap: wrap;  /* Permite que las imágenes se acomoden en varias líneas */
 }
